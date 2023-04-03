@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/program3-style.css">
+  <title>Voting Eligibility</title>
+</head>
+<body>
+  <div class="form-container d-flex">
+    <form action="#" method="#">
+      <div class="form-header d-flex">
+        <span class="form-header-text">Voting Eligibility</span>
+      </div>
+      <div class="form-body d-flex">
+        <div class="age-input-body d-flex">
+          <label for="age-input"> Age: </label>
+          <input type="number" name="age-input" id="age-input">
+        </div>
+        <div>
+          <label for="citizenship"> Citizenship: </label>
+          <select class="citizenship-menu" name="citizenship" id="citizenship">
+            <option class="t-whitesmoke" selected disabled>Select one</option>
+            <option class="t-whitesmoke" >Naturalized Filipino</option>
+            <option class="t-whitesmoke" >Citizen by Birth</option>
+            <option class="t-whitesmoke" >Not a Citizen</option>
+          </select>
+        </div>
+        <div class="recidency-body d-flex">
+          <label for="recidency">Months of Residency: </label>
+          <input type="number" name="recidency" id="recidency">
+        </div>
+
+
+      </div>
+    </form>
+    <div class=" d-flex">
+      <button onclick="validate()">Check</button>
+    </div>
+    <div class="other-tools">
+      <span>Other tools: </span>
+      <a href="program1-index.html">Integer Checker</a>
+      <span>,</span>
+      <a href="program2-index.html">Odd/Even Checker</a>
+    </div>
+  </div>
+  <script src="assets/jscript/prorgram3-script.js"></script>
+</body>
+</html>
